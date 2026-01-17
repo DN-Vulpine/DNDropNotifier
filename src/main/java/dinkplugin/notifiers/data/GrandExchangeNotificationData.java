@@ -1,7 +1,6 @@
 package dinkplugin.notifiers.data;
 
 import dinkplugin.message.Field;
-import dinkplugin.notifiers.GrandExchangeNotifier;
 import dinkplugin.util.ItemUtils;
 import lombok.EqualsAndHashCode;
 import lombok.Value;

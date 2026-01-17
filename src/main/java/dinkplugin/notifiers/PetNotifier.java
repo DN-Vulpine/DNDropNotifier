@@ -39,7 +39,6 @@ import java.util.regex.Pattern;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import static dinkplugin.notifiers.CollectionNotifier.COLLECTION_LOG_REGEX;
 import static java.util.Map.entry;
 
 @Singleton

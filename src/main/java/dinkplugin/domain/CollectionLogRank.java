@@ -23,7 +23,7 @@ public enum CollectionLogRank {
     @VisibleForTesting
     public static final int THRESHOLD_PARAM = 2232;
 
-    @Getter(onMethod_ = { @VisibleForTesting })
+    /*@Getter(onMethod_ = { @VisibleForTesting })*/
     private final int structId;
     private final String displayName = Utils.ucFirst(this.name());
 
