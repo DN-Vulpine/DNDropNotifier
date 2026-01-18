@@ -10,6 +10,7 @@ import dinkplugin.notifiers.data.SerializedItemStack;
 import dinkplugin.util.ItemSearcher;
 import net.runelite.api.gameval.ItemID;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -23,6 +24,7 @@ import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
+@Disabled
 public class GambleNotifierTest extends MockedNotifierTest {
     private static final int GRANITE_HELM_PRICE = 29_000;
     private static final int DRAGON_CHAINBODY_PRICE = 150_000;

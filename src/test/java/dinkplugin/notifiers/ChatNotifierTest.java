@@ -16,6 +16,7 @@ import net.runelite.api.events.CommandExecuted;
 import net.runelite.client.config.Notification;
 import net.runelite.client.events.NotificationFired;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 

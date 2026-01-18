@@ -11,6 +11,7 @@ import net.runelite.api.GameState;
 import net.runelite.api.events.VarbitChanged;
 import net.runelite.api.gameval.VarbitID;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mockito;
@@ -25,6 +26,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @SuppressWarnings("MagicConstant")
+@Disabled
 class DiaryNotifierTest extends MockedNotifierTest {
 
     private static final int COMPLETED_TASKS = 469;

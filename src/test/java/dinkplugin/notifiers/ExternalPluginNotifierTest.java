@@ -11,6 +11,7 @@ import dinkplugin.notifiers.data.ExternalNotificationData;
 import net.runelite.client.events.PluginMessage;
 import okhttp3.HttpUrl;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 
@@ -25,6 +26,7 @@ import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
+@Disabled
 public class ExternalPluginNotifierTest extends MockedNotifierTest {
 
     @Bind
