@@ -1,26 +1,11 @@
 package dinkplugin;
 
 import com.google.inject.Provides;
-import dinkplugin.notifiers.ChatNotifier;
-import dinkplugin.notifiers.ClueNotifier;
-import dinkplugin.notifiers.CollectionNotifier;
 import dinkplugin.notifiers.CombatTaskNotifier;
-import dinkplugin.notifiers.DeathNotifier;
-import dinkplugin.notifiers.DiaryNotifier;
-import dinkplugin.notifiers.ExternalPluginNotifier;
-import dinkplugin.notifiers.GambleNotifier;
-import dinkplugin.notifiers.GrandExchangeNotifier;
-import dinkplugin.notifiers.GroupStorageNotifier;
-import dinkplugin.notifiers.KillCountNotifier;
 import dinkplugin.notifiers.LevelNotifier;
 import dinkplugin.notifiers.LootNotifier;
 import dinkplugin.notifiers.MetaNotifier;
 import dinkplugin.notifiers.PetNotifier;
-import dinkplugin.notifiers.PlayerKillNotifier;
-import dinkplugin.notifiers.QuestNotifier;
-import dinkplugin.notifiers.SlayerNotifier;
-import dinkplugin.notifiers.SpeedrunNotifier;
-import dinkplugin.notifiers.TradeNotifier;
 import dinkplugin.util.AccountTypeTracker;
 import dinkplugin.util.KillCountService;
 import dinkplugin.util.Utils;
@@ -95,19 +80,19 @@ public class DinkPlugin extends Plugin {
     // private @Inject QuestNotifier questNotifier;
     // private @Inject ClueNotifier clueNotifier;
     // private @Inject SpeedrunNotifier speedrunNotifier;
-//    private @Inject LeaguesNotifier leaguesNotifier;
+    // private @Inject LeaguesNotifier leaguesNotifier;
     // private @Inject KillCountNotifier killCountNotifier;
-    private @Inject CombatTaskNotifier combatTaskNotifier;
     // private @Inject DiaryNotifier diaryNotifier;
     // private @Inject GambleNotifier gambleNotifier;
     // private @Inject PlayerKillNotifier pkNotifier;
     // private @Inject GroupStorageNotifier groupStorageNotifier;
     // private @Inject GrandExchangeNotifier grandExchangeNotifier;
-    private @Inject MetaNotifier metaNotifier;
     // private @Inject TradeNotifier tradeNotifier;
     // private @Inject ChatNotifier chatNotifier;
     // private @Inject ExternalPluginNotifier externalNotifier;
-
+    // private @Inject LeaguesNotifier leaguesNotifier;
+    private @Inject CombatTaskNotifier combatTaskNotifier;
+    private @Inject MetaNotifier metaNotifier;
     private final AtomicReference<GameState> gameState = new AtomicReference<>();
 
     private Map<String, Runnable> configDisabledTasks;
@@ -120,6 +105,7 @@ public class DinkPlugin extends Plugin {
             // "diaryEnabled", diaryNotifier::reset,
             "levelEnabled", levelNotifier::reset
             // "speedrunEnabled", speedrunNotifier::reset
+            "levelEnabled", levelNotifier::reset
         );
     }
 
@@ -158,6 +144,8 @@ public class DinkPlugin extends Plugin {
         // speedrunNotifier.reset();
         // tradeNotifier.reset();
         // chatNotifier.reset();
+        petNotifier.reset();
+        levelNotifier.reset();
     }
 
     @Provides
@@ -222,6 +210,7 @@ public class DinkPlugin extends Plugin {
         levelNotifier.onGameStateChanged(gameStateChanged);
         // diaryNotifier.onGameState(gameStateChanged);
         // grandExchangeNotifier.onGameStateChange(gameStateChanged);
+        levelNotifier.onGameStateChanged(gameStateChanged);
         metaNotifier.onGameState(previousState, newState);
     }
 
@@ -245,6 +234,9 @@ public class DinkPlugin extends Plugin {
         // killCountNotifier.onTick();
         // pkNotifier.onTick();
         // grandExchangeNotifier.onTick();
+        petNotifier.onTick();
+        levelNotifier.onTick();
+        combatTaskNotifier.onTick();
         metaNotifier.onTick();
     }
 
@@ -270,6 +262,10 @@ public class DinkPlugin extends Plugin {
                 combatTaskNotifier.onGameMessage(chatMessage);
                 // deathNotifier.onGameMessage(chatMessage);
                 // speedrunNotifier.onGameMessage(chatMessage);
+                lootNotifier.onGameMessage(chatMessage);
+                petNotifier.onChatMessage(chatMessage);
+                killCountService.onGameMessage(chatMessage);
+                combatTaskNotifier.onGameMessage(chatMessage);
 //                leaguesNotifier.onGameMessage(chatMessage);
                 break;
 
@@ -290,6 +286,9 @@ public class DinkPlugin extends Plugin {
 
             case TRADE:
                 // tradeNotifier.onTradeMessage(chatMessage);
+                break;
+
+            case TRADE:
                 break;
 
             default:
@@ -323,6 +322,7 @@ public class DinkPlugin extends Plugin {
         // collectionNotifier.onScript(event.getScriptId());
         petNotifier.onScript(event.getScriptId());
         // deathNotifier.onScript(event);
+        petNotifier.onScript(event.getScriptId());
     }
 
     @Subscribe(priority = 1) // run before the base loot tracker plugin
@@ -389,6 +389,7 @@ public class DinkPlugin extends Plugin {
         // groupStorageNotifier.onWidgetLoad(event);
         // killCountNotifier.onWidget(event);
         // tradeNotifier.onWidgetLoad(event);
+        killCountService.onWidget(event);
     }
 
     @Subscribe

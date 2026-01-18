@@ -6,8 +6,6 @@ import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import dinkplugin.DinkPluginConfig;
 import dinkplugin.SettingsManager;
-import dinkplugin.notifiers.ClueNotifier;
-import dinkplugin.notifiers.KillCountNotifier;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Client;

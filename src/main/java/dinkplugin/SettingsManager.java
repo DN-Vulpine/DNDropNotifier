@@ -7,10 +7,7 @@ import dinkplugin.domain.ChatPrivacyMode;
 import dinkplugin.domain.ConfigImportPolicy;
 import dinkplugin.domain.FilterMode;
 import dinkplugin.domain.SeasonalPolicy;
-import dinkplugin.notifiers.ChatNotifier;
-import dinkplugin.notifiers.CollectionNotifier;
 import dinkplugin.notifiers.CombatTaskNotifier;
-import dinkplugin.notifiers.KillCountNotifier;
 import dinkplugin.notifiers.PetNotifier;
 import dinkplugin.util.MigrationUtil;
 import dinkplugin.util.Utils;
@@ -67,7 +64,7 @@ import static dinkplugin.util.ConfigUtil.*;
 
 @Slf4j
 @Singleton
-@RequiredArgsConstructor(onConstructor_ = { @Inject })
+/**@RequiredArgsConstructor(onConstructor_ = { @Inject })*/
 public class SettingsManager {
     public static final String CONFIG_GROUP = "dinkplugin";
     public static final String DYNAMIC_IMPORT_CONFIG_KEY = "dynamicConfigUrl";
