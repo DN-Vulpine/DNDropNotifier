@@ -237,14 +237,14 @@ public class DinkPlugin extends Plugin {
         worldTracker.onTick();
         collectionNotifier.onTick();
         petNotifier.onTick();
-        clueNotifier.onTick();
-        slayerNotifier.onTick();
-        levelNotifier.onTick();
+        // clueNotifier.onTick();
+        // slayerNotifier.onTick();
+        // levelNotifier.onTick();
         combatTaskNotifier.onTick();
-        diaryNotifier.onTick();
-        killCountNotifier.onTick();
-        pkNotifier.onTick();
-        grandExchangeNotifier.onTick();
+        // diaryNotifier.onTick();
+        // killCountNotifier.onTick();
+        // pkNotifier.onTick();
+        // grandExchangeNotifier.onTick();
         metaNotifier.onTick();
     }
 
@@ -260,21 +260,21 @@ public class DinkPlugin extends Plugin {
                     return;
                 }
 
-                collectionNotifier.onChatMessage(chatMessage);
+                // collectionNotifier.onChatMessage(chatMessage);
                 lootNotifier.onGameMessage(chatMessage);
                 petNotifier.onChatMessage(chatMessage);
-                killCountService.onGameMessage(chatMessage);
-                slayerNotifier.onChatMessage(chatMessage);
-                clueNotifier.onChatMessage(chatMessage);
-                killCountNotifier.onGameMessage(chatMessage);
-                combatTaskNotifier.onGameMessage(chatMessage);
-                deathNotifier.onGameMessage(chatMessage);
-                speedrunNotifier.onGameMessage(chatMessage);
+                // killCountService.onGameMessage(chatMessage);
+                // slayerNotifier.onChatMessage(chatMessage);
+                // clueNotifier.onChatMessage(chatMessage);
+                // killCountNotifier.onGameMessage(chatMessage);
+                // combatTaskNotifier.onGameMessage(chatMessage);
+                // deathNotifier.onGameMessage(chatMessage);
+                // speedrunNotifier.onGameMessage(chatMessage);
 //                leaguesNotifier.onGameMessage(chatMessage);
                 break;
 
             case FRIENDSCHATNOTIFICATION:
-                killCountNotifier.onFriendsChatNotification(chatMessage);
+                // killCountNotifier.onFriendsChatNotification(chatMessage);
                 // intentional fallthrough to clan notifications
 
             case CLAN_MESSAGE:
@@ -284,12 +284,12 @@ public class DinkPlugin extends Plugin {
                 break;
 
             case MESBOX:
-                diaryNotifier.onMessageBox(chatMessage);
-                gambleNotifier.onMesBoxNotification(chatMessage);
+                // diaryNotifier.onMessageBox(chatMessage);
+                // gambleNotifier.onMesBoxNotification(chatMessage);
                 break;
 
             case TRADE:
-                tradeNotifier.onTradeMessage(chatMessage);
+                // tradeNotifier.onTradeMessage(chatMessage);
                 break;
 
             default:
@@ -393,8 +393,8 @@ public class DinkPlugin extends Plugin {
 
     @Subscribe
     public void onWidgetClosed(WidgetClosed event) {
-        groupStorageNotifier.onWidgetClose(event);
-        tradeNotifier.onWidgetClose(event);
+        // groupStorageNotifier.onWidgetClose(event);
+        // tradeNotifier.onWidgetClose(event);
     }
 
     @Subscribe
