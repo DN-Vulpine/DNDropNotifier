@@ -304,7 +304,7 @@ public interface DinkPluginConfig extends Config {
         hidden = true
     )
     default String embedFooterIcon() {
-        return "https://github.com/pajlads/DinkPlugin/raw/master/icon.png";
+        return "https://github.com/pajlads/DinkPlugin/raw/master/DN.png";
     }
 
     @ConfigItem(
