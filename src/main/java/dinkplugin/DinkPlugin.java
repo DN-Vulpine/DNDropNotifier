@@ -69,7 +69,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 @Slf4j
 @PluginDescriptor(
-    name = "Dink",
+    name = "DN Discord Notifier",
     description = "Discord-compatible webhook notifications for Loot, Death, Levels, CLog, KC, Diary, Quests, etc.",
     tags = { "loot", "logger", "collection", "pet", "death", "xp", "level", "notifications", "discord", "speedrun",
         "diary", "combat achievements", "combat task", "barbarian assault", "high level gambles" }

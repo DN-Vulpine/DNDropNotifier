@@ -38,12 +38,12 @@ public interface DinkPluginConfig extends Config {
     )
     String webhookSection = "Webhook Overrides";
 
-    @ConfigSection(
-        name = "Collection Log",
-        description = "Settings for notifying about collection log",
-        position = 0,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Collection Log",
+//        description = "Settings for notifying about collection log",
+//        position = 0,
+//        closedByDefault = true
+//    )
     String collectionSection = "Collection Log";
 
     @ConfigSection(
@@ -70,52 +70,52 @@ public interface DinkPluginConfig extends Config {
     )
     String lootSection = "Loot";
 
-    @ConfigSection(
-        name = "Death",
-        description = "Settings for notifying when you die",
-        position = 40,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Death",
+//        description = "Settings for notifying when you die",
+//        position = 40,
+//        closedByDefault = true
+//    )
     String deathSection = "Death";
 
-    @ConfigSection(
-        name = "Slayer",
-        description = "Settings for notifying when you complete a slayer task",
-        position = 50,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Slayer",
+//        description = "Settings for notifying when you complete a slayer task",
+//        position = 50,
+//        closedByDefault = true
+//    )
     String slayerSection = "Slayer";
 
-    @ConfigSection(
-        name = "Quests",
-        description = "Settings for notifying when you complete a quest",
-        position = 60,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Quests",
+//        description = "Settings for notifying when you complete a quest",
+//        position = 60,
+//        closedByDefault = true
+//    )
     String questSection = "Quests";
 
-    @ConfigSection(
-        name = "Clue Scrolls",
-        description = "Settings for notifying when you complete a clue scroll",
-        position = 70,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Clue Scrolls",
+//        description = "Settings for notifying when you complete a clue scroll",
+//        position = 70,
+//        closedByDefault = true
+//    )
     String clueSection = "Clue Scrolls";
 
-    @ConfigSection(
-        name = "Speedruns",
-        description = "Settings for notifying when you finish a speedrun",
-        position = 80,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Speedruns",
+//        description = "Settings for notifying when you finish a speedrun",
+//        position = 80,
+//        closedByDefault = true
+//    )
     String speedrunSection = "Speedruns";
 
-    @ConfigSection(
-        name = "Kill Count",
-        description = "Settings for notifying when you kill a boss",
-        position = 90,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Kill Count",
+//        description = "Settings for notifying when you kill a boss",
+//        position = 90,
+//        closedByDefault = true
+//    )
     String killCountSection = "Kill Count";
 
     @ConfigSection(
@@ -126,68 +126,68 @@ public interface DinkPluginConfig extends Config {
     )
     String combatTaskSection = "Combat Tasks";
 
-    @ConfigSection(
-        name = "Achievement Diary",
-        description = "Settings for notifying when you complete an Achievement Diary",
-        position = 110,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Achievement Diary",
+//        description = "Settings for notifying when you complete an Achievement Diary",
+//        position = 110,
+//        closedByDefault = true
+//    )
     String diarySection = "Achievement Diary";
 
-    @ConfigSection(
-        name = "BA Gambles",
-        description = "Settings for notifying when you gamble at Barbarian Assault",
-        position = 120,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "BA Gambles",
+//        description = "Settings for notifying when you gamble at Barbarian Assault",
+//        position = 120,
+//        closedByDefault = true
+//    )
     String gambleSection = "BA Gambles";
 
-    @ConfigSection(
-        name = "Player Kills",
-        description = "Settings for notifying when you kill another player",
-        position = 130,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Player Kills",
+//        description = "Settings for notifying when you kill another player",
+//        position = 130,
+//        closedByDefault = true
+//    )
     String pkSection = "Player Kills";
 
-    @ConfigSection(
-        name = "Group Storage",
-        description = "Settings for notifying when you deposit or withdraw items from group ironman shared storage",
-        position = 140,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Group Storage",
+//        description = "Settings for notifying when you deposit or withdraw items from group ironman shared storage",
+//        position = 140,
+//        closedByDefault = true
+//    )
     String groupStorageSection = "Group Storage";
 
-    @ConfigSection(
-        name = "Grand Exchange",
-        description = "Settings for notifying when you buy or sell items from the Grand Exchange",
-        position = 150,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Grand Exchange",
+//        description = "Settings for notifying when you buy or sell items from the Grand Exchange",
+//        position = 150,
+//        closedByDefault = true
+//    )
     String grandExchangeSection = "Grand Exchange";
 
-    @ConfigSection(
-        name = "Player Trades",
-        description = "Settings for notifying when you trade with another player",
-        position = 160,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Player Trades",
+//        description = "Settings for notifying when you trade with another player",
+//        position = 160,
+//        closedByDefault = true
+//    )
     String tradeSection = "Player Trades";
 
-    @ConfigSection(
-        name = "Custom Chat Messages",
-        description = "Settings for notifying when you receive specific messages from the game",
-        position = 170,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Custom Chat Messages",
+//        description = "Settings for notifying when you receive specific messages from the game",
+//        position = 170,
+//        closedByDefault = true
+//    )
     String chatSection = "Custom Chat Messages";
 
-    @ConfigSection(
-        name = "External Plugin Requests",
-        description = "Settings for notifying when other plugins request Dink notifications to be fired",
-        position = 180,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "External Plugin Requests",
+//        description = "Settings for notifying when other plugins request Dink notifications to be fired",
+//        position = 180,
+//        closedByDefault = true
+//    )
     String externalSection = "External Plugin Requests";
 
     /*
@@ -200,12 +200,12 @@ public interface DinkPluginConfig extends Config {
      */
     String leaguesSection = "Leagues";
 
-    @ConfigSection(
-        name = "Advanced",
-        description = "Do not modify without fully understanding these settings",
-        position = 1000,
-        closedByDefault = true
-    )
+//    @ConfigSection(
+//        name = "Advanced",
+//        description = "Do not modify without fully understanding these settings",
+//        position = 1000,
+//        closedByDefault = true
+//    )
     String advancedSection = "Advanced";
 
     @ConfigItem(
@@ -223,7 +223,8 @@ public interface DinkPluginConfig extends Config {
         name = "Webhook Max Retries",
         description = "The maximum number of retry attempts for sending a webhook message. Negative implies no attempts",
         position = 1000,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default int maxRetries() {
         return 3;
@@ -234,7 +235,8 @@ public interface DinkPluginConfig extends Config {
         name = "Webhook Retry Base Delay",
         description = "The base number of milliseconds to wait before attempting a retry for a webhook message",
         position = 1001,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     @Units(Units.MILLISECONDS)
     default int baseRetryDelay() {
@@ -246,7 +248,8 @@ public interface DinkPluginConfig extends Config {
         name = "Image Upload Timeout",
         description = "The maximum number of seconds that uploading a screenshot can take before timing out",
         position = 1002,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     @Units(Units.SECONDS)
     default int imageWriteTimeout() {
@@ -259,7 +262,8 @@ public interface DinkPluginConfig extends Config {
         description = "Resizes screenshots in each dimension by the specified percentage.<br/>" +
             "Useful to avoid Discord's max upload size of 8MB or reduce bandwidth",
         position = 1003,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     @Units(Units.PERCENT)
     @Range(min = 1, max = 100)
@@ -272,7 +276,8 @@ public interface DinkPluginConfig extends Config {
         name = "Use Rich Embeds",
         description = "Whether Discord's rich embed format should be used for webhooks",
         position = 1004,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default boolean discordRichEmbeds() {
         return true;
@@ -283,10 +288,11 @@ public interface DinkPluginConfig extends Config {
         name = "Embed Footer Text",
         description = "The text in the footer of rich embed webhook messages. If empty, no footer will be sent",
         position = 1005,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default String embedFooterText() {
-        return "Powered by Dink";
+        return "Powered by DN";
     }
 
     @ConfigItem(
@@ -294,7 +300,8 @@ public interface DinkPluginConfig extends Config {
         name = "Embed Footer Icon",
         description = "The URL for the footer icon image of rich embed webhooks. Requires footer text to not be empty",
         position = 1006,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default String embedFooterIcon() {
         return "https://github.com/pajlads/DinkPlugin/raw/master/icon.png";
@@ -306,7 +313,8 @@ public interface DinkPluginConfig extends Config {
         description = "Restrict what player names can trigger notifications (One name per line)<br/>" +
             "This acts as an allowlist or denylist based on the 'RSN Filter Mode' setting below.",
         position = 1007,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default String filteredNames() {
         return "";
@@ -318,7 +326,8 @@ public interface DinkPluginConfig extends Config {
         description = "Allow Mode: Only allow notifications for RSNs on the list above (discouraged).<br/>" +
             "Deny Mode: Prevent notifications from RSNs on the list above (default/recommended).",
         position = 1008,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default FilterMode nameFilterMode() {
         return FilterMode.DENY;
@@ -327,7 +336,8 @@ public interface DinkPluginConfig extends Config {
     @ConfigItem(
         keyName = "nameFilterMode",
         name = "",
-        description = ""
+        description = "",
+        hidden = true
     )
     void setNameFilterMode(FilterMode filterMode);
 
@@ -336,7 +346,8 @@ public interface DinkPluginConfig extends Config {
         name = "Player Lookup Service",
         description = "The service used to lookup a players account, to make their name clickable in Discord embeds",
         position = 1009,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default PlayerLookupService playerLookupService() {
         return PlayerLookupService.OSRS_HISCORE;
@@ -349,7 +360,8 @@ public interface DinkPluginConfig extends Config {
             "Note: visually you may notice the chat box momentarily flicker as it is hidden for the screenshot.<br/>" +
             "Warning: 'Hide Split PMs' has no effect if 'Split friends private chat' is not enabled in the game settings",
         position = 1010,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default ChatPrivacyMode chatPrivacy() {
         return ChatPrivacyMode.HIDE_SPLIT_PM;
@@ -358,7 +370,8 @@ public interface DinkPluginConfig extends Config {
     @ConfigItem(
         keyName = "chatPrivacy",
         name = "",
-        description = ""
+        description = "",
+        hidden = true
     )
     void setChatPrivacy(ChatPrivacyMode mode);
 
@@ -367,7 +380,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Discord Profile",
         description = "Whether to send your discord user information to the webhook server via metadata",
         position = 1011,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default boolean sendDiscordUser() {
         return true;
@@ -378,7 +392,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Clan Name",
         description = "Whether to send your clan information to the webhook server via metadata",
         position = 1012,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default boolean sendClanName() {
         return true;
@@ -389,7 +404,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send GIM Clan Name",
         description = "Whether to send your group ironman clan information to the webhook server via metadata",
         position = 1013,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default boolean sendGroupIronClanName() {
         return true;
@@ -403,7 +419,8 @@ public interface DinkPluginConfig extends Config {
             "Use %MESSAGE% to insert the notification message<br/>" +
             "Use %USERNAME% to insert the player name",
         position = 1013,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default String threadNameTemplate() {
         return "[%TYPE%] %MESSAGE%";
@@ -418,7 +435,8 @@ public interface DinkPluginConfig extends Config {
             "Use %TYPE% to insert the notification type<br/>" +
             "Use %CLAN% to insert your clan name",
         position = 1013,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default String screenshotFilenameTemplate() {
         return "";
@@ -431,7 +449,8 @@ public interface DinkPluginConfig extends Config {
             "Not recommended for use with Discord webhooks, as it could cause spam.<br/>" +
             "You can target multiple webhooks by specifying their URLs on separate lines",
         position = 1014,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default String metadataWebhook() {
         return "";
@@ -444,7 +463,8 @@ public interface DinkPluginConfig extends Config {
             "If 'Use Leagues URL' is enabled but no Leagues Override URL is set, notifications will still be sent to your normal webhook URLs.<br/>" +
             "Note: the Leagues-specific notifier uses an independent config option to toggle messages",
         position = 1015,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default SeasonalPolicy seasonalPolicy() {
         return SeasonalPolicy.FORWARD_TO_LEAGUES;
@@ -453,7 +473,8 @@ public interface DinkPluginConfig extends Config {
     @ConfigItem(
         keyName = "seasonalPolicy",
         name = "",
-        description = ""
+        description = "",
+        hidden = true
     )
     void setSeasonalPolicy(SeasonalPolicy policy);
 
@@ -462,7 +483,8 @@ public interface DinkPluginConfig extends Config {
         name = "Include Location",
         description = "Whether to include the player location and world in notification metadata.",
         position = 1016,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default boolean includeLocation() {
         return true;
@@ -476,7 +498,8 @@ public interface DinkPluginConfig extends Config {
             "The config applies to all webhooks, so ensure you trust this URL.<br/>" +
             "Only one URL is supported",
         position = 1017,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default String dynamicConfigUrl() {
         return "";
@@ -488,7 +511,8 @@ public interface DinkPluginConfig extends Config {
         description = "Whether certain settings should be overwritten on import, rather than merging.<br/>" +
             "Relevant for both ::DinkImport and 'Dynamic Config URL'",
         position = 1018,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default Set<ConfigImportPolicy> importPolicy() {
         return EnumSet.noneOf(ConfigImportPolicy.class);
@@ -499,7 +523,8 @@ public interface DinkPluginConfig extends Config {
         name = "Include Client Frame",
         description = "Whether to include the client frame in screenshots.",
         position = 1019,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default boolean includeClientFrame() {
         return false;
@@ -510,7 +535,8 @@ public interface DinkPluginConfig extends Config {
         name = "Embed Color",
         description = "The highlight color for rich embeds.",
         position = 1020,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default Color embedColor() {
         return Utils.PINK;
@@ -522,7 +548,8 @@ public interface DinkPluginConfig extends Config {
         description = "Types of accounts that should not trigger notifications.<br/>" +
             "Has no effect if 'RSN Filter Mode' is set to 'Exclusively Allow'",
         position = 1021,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default Set<AccountType> deniedAccountTypes() {
         return EnumSet.noneOf(AccountType.class);
@@ -534,7 +561,8 @@ public interface DinkPluginConfig extends Config {
         description = "Whether to parse and utilize kill counts from the slayer kill log interface.<br/>" +
             "For more accurate kc reporting, have this setting enabled and open the slayer kill log",
         position = 1022,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default boolean useSlayerWidgetKc() {
         return true;
@@ -547,7 +575,8 @@ public interface DinkPluginConfig extends Config {
             "Leave blank to utilize the default chat badge logic.<br/>" +
             "Warning: malformed URLs may break Discord notifications",
         position = 1023,
-        section = advancedSection
+        section = advancedSection,
+        hidden = true
     )
     default String customPlayerBadge() {
         return "";
@@ -569,7 +598,8 @@ public interface DinkPluginConfig extends Config {
         name = "Collection Webhook Override",
         description = "If non-empty, collection messages are sent to this URL, instead of the primary URL",
         position = -19,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String collectionWebhook() {
         return "";
@@ -580,7 +610,8 @@ public interface DinkPluginConfig extends Config {
         name = "Pet Webhook Override",
         description = "If non-empty, pet messages are sent to this URL, instead of the primary URL",
         position = -18,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String petWebhook() {
         return "";
@@ -602,7 +633,8 @@ public interface DinkPluginConfig extends Config {
         name = "Loot Webhook Override",
         description = "If non-empty, loot messages are sent to this URL, instead of the primary URL",
         position = -16,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String lootWebhook() {
         return "";
@@ -613,7 +645,8 @@ public interface DinkPluginConfig extends Config {
         name = "Death Webhook Override",
         description = "If non-empty, death messages are sent to this URL, instead of the primary URL",
         position = -15,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String deathWebhook() {
         return "";
@@ -624,7 +657,8 @@ public interface DinkPluginConfig extends Config {
         name = "Slayer Webhook Override",
         description = "If non-empty, slayer messages are sent to this URL, instead of the primary URL",
         position = -14,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String slayerWebhook() {
         return "";
@@ -635,7 +669,8 @@ public interface DinkPluginConfig extends Config {
         name = "Quest Webhook Override",
         description = "If non-empty, quest messages are sent to this URL, instead of the primary URL",
         position = -13,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String questWebhook() {
         return "";
@@ -646,7 +681,8 @@ public interface DinkPluginConfig extends Config {
         name = "Clue Webhook Override",
         description = "If non-empty, clue messages are sent to this URL, instead of the primary URL",
         position = -12,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String clueWebhook() {
         return "";
@@ -657,7 +693,8 @@ public interface DinkPluginConfig extends Config {
         name = "Speedrun Webhook Override",
         description = "If non-empty, speedrun messages are sent to this URL, instead of the primary URL",
         position = -11,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String speedrunWebhook() {
         return "";
@@ -668,7 +705,8 @@ public interface DinkPluginConfig extends Config {
         name = "Kill Count Webhook Override",
         description = "If non-empty, kill count messages are sent to this URL, instead of the primary URL",
         position = -10,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String killCountWebhook() {
         return "";
@@ -690,7 +728,8 @@ public interface DinkPluginConfig extends Config {
         name = "Diary Webhook Override",
         description = "If non-empty, achievement diary messages are sent to this URL, instead of the primary URL",
         position = -8,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String diaryWebhook() {
         return "";
@@ -701,7 +740,8 @@ public interface DinkPluginConfig extends Config {
         name = "BA Gamble Webhook Override",
         description = "If non-empty, BA gamble messages are sent to this URL, instead of the primary URL",
         position = -7,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String gambleWebhook() {
         return "";
@@ -723,7 +763,8 @@ public interface DinkPluginConfig extends Config {
         name = "Group Storage Webhook Override",
         description = "If non-empty, Group Storage messages are sent to this URL, instead of the primary URL",
         position = -5,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String groupStorageWebhook() {
         return "";
@@ -734,7 +775,8 @@ public interface DinkPluginConfig extends Config {
         name = "Grand Exchange Webhook Override",
         description = "If non-empty, Grand Exchange messages are sent to this URL, instead of the primary URL",
         position = -4,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String grandExchangeWebhook() {
         return "";
@@ -745,7 +787,8 @@ public interface DinkPluginConfig extends Config {
         name = "Trade Webhook Override",
         description = "If non-empty, Trading messages are sent to this URL, instead of the primary URL",
         position = -3,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String tradeWebhook() {
         return "";
@@ -756,7 +799,8 @@ public interface DinkPluginConfig extends Config {
         name = "Chat Webhook Override",
         description = "If non-empty, filtered chat messages are sent to this URL, instead of the primary URL",
         position = -2,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String chatWebhook() {
         return "";
@@ -767,7 +811,8 @@ public interface DinkPluginConfig extends Config {
         name = "External Webhook Override",
         description = "If non-empty, external plugin messages that don't provide a custom URL are by default sent to this URL, instead of the primary URL",
         position = -1,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String externalWebhook() {
         return "";
@@ -779,7 +824,8 @@ public interface DinkPluginConfig extends Config {
         description = "If non-empty, Leagues messages are sent to this URL, instead of the primary URL.<br/>" +
             "Note: this applies to the Leagues notifier or if 'Seasonal Policy' is set to Forward for seasonal worlds",
         position = 0,
-        section = webhookSection
+        section = webhookSection,
+        hidden = true
     )
     default String leaguesWebhook() {
         return "";
@@ -791,7 +837,8 @@ public interface DinkPluginConfig extends Config {
         description = "Enable notifications for collection log.<br/>" +
             "Requires 'Chat > Collection log - New addition notification' setting to be enabled",
         position = 1,
-        section = collectionSection
+        section = collectionSection,
+        hidden = true
     )
     default boolean notifyCollectionLog() {
         return false;
@@ -802,7 +849,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 2,
-        section = collectionSection
+        section = collectionSection,
+        hidden = true
     )
     default boolean collectionSendImage() {
         return true;
@@ -814,7 +862,8 @@ public interface DinkPluginConfig extends Config {
         description = "Never fire notifications for these items.<br/>" +
             "Place one item name per line (case-insensitive; asterisks are wildcards)",
         position = 3,
-        section = collectionSection
+        section = collectionSection,
+        hidden = true
     )
     default String collectionDenylist() {
         return "Dwarf remains\n";
@@ -829,7 +878,8 @@ public interface DinkPluginConfig extends Config {
             "Use %COMPLETED% to insert the number of completed entries<br/>" +
             "Use %TOTAL_POSSIBLE% to insert the number of possible entries",
         position = 4,
-        section = collectionSection
+        section = collectionSection,
+        hidden = true
     )
     default String collectionNotifyMessage() {
         return "%USERNAME% has added %ITEM% to their collection";
@@ -851,7 +901,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 11,
-        section = petSection
+        section = petSection,
+        hidden = true
     )
     default boolean petSendImage() {
         return true;
@@ -864,7 +915,8 @@ public interface DinkPluginConfig extends Config {
             "Use %USERNAME% to insert your username<br/>" +
             "Use %GAME_MESSAGE% to insert the game message associated with this type of pet drop",
         position = 12,
-        section = petSection
+        section = petSection,
+        hidden = true
     )
     default String petNotifyMessage() {
         return "%USERNAME% %GAME_MESSAGE%";
@@ -886,7 +938,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 21,
-        section = levelSection
+        section = levelSection,
+        hidden = true
     )
     default boolean levelSendImage() {
         return true;
@@ -898,10 +951,11 @@ public interface DinkPluginConfig extends Config {
         description = "Whether level notifications should be fired beyond level 99.<br/>" +
             "Will also notify upon reaching 200M XP",
         position = 22,
-        section = levelSection
+        section = levelSection,
+        hidden = true
     )
     default boolean levelNotifyVirtual() {
-        return true;
+        return false;
     }
 
     @ConfigItem(
@@ -909,7 +963,8 @@ public interface DinkPluginConfig extends Config {
         name = "Notify for Combat Levels",
         description = "Whether notifications should occur for combat level increases",
         position = 23,
-        section = levelSection
+        section = levelSection,
+        hidden = true
     )
     default boolean levelNotifyCombat() {
         return false;
@@ -920,7 +975,9 @@ public interface DinkPluginConfig extends Config {
         name = "Notify Interval",
         description = "Level interval between when a notification should be sent",
         position = 24,
-        section = levelSection
+        section = levelSection,
+        hidden = true
+
     )
     default int levelInterval() {
         return 1;
@@ -932,10 +989,11 @@ public interface DinkPluginConfig extends Config {
         description = "The minimum skill level required to send a notification.<br/>" +
             "Useful for filtering out low-level notifications",
         position = 25,
-        section = levelSection
+        section = levelSection,
+        hidden = true
     )
     default int levelMinValue() {
-        return 1;
+        return 99;
     }
 
     @ConfigItem(
@@ -944,11 +1002,12 @@ public interface DinkPluginConfig extends Config {
         description = "Minimum level of the advanced skill to warrant a screenshot.<br/>" +
             "Requires 'Send Image' to be enabled",
         position = 26,
-        section = levelSection
+        section = levelSection,
+        hidden = true
     )
     @Range(min = 1, max = 99)
     default int levelMinScreenshotValue() {
-        return 1;
+        return 99;
     }
 
     @ConfigItem(
@@ -957,7 +1016,8 @@ public interface DinkPluginConfig extends Config {
         description = "All level ups starting from this override level send a notification, disregarding the configured Notify Interval.<br/>" +
             "Disabled when set to 0",
         position = 27,
-        section = levelSection
+        section = levelSection,
+        hidden = true
     )
     default int levelIntervalOverride() {
         return 0;
@@ -972,12 +1032,13 @@ public interface DinkPluginConfig extends Config {
             "If enabled, fires for 200M XP, even if not divisible by the interval.<br/>" +
             "Disabled if set to 0",
         position = 27,
-        section = levelSection
+        section = levelSection,
+        hidden = true
     )
     @Units("M xp")
     @Range(max = Experience.MAX_SKILL_XP / 1_000_000) // [0, 200]
     default int xpInterval() {
-        return 5;
+        return 0;
     }
 
     @ConfigItem(
@@ -989,10 +1050,11 @@ public interface DinkPluginConfig extends Config {
             "Use %TOTAL_LEVEL% to insert the updated total level<br/>" +
             "Use %TOTAL_XP% to insert the updated overall experience",
         position = 29,
-        section = levelSection
+        section = levelSection,
+        hidden = true
     )
     default String levelNotifyMessage() {
-        return "%USERNAME% has levelled %SKILL%";
+        return "%USERNAME% has achieved level 99 in %SKILL%";
     }
 
     @ConfigItem(
@@ -1011,7 +1073,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 31,
-        section = lootSection
+        section = lootSection,
+        hidden = true
     )
     default boolean lootSendImage() {
         return true;
@@ -1022,10 +1085,11 @@ public interface DinkPluginConfig extends Config {
         name = "Show loot icons",
         description = "Show icons for the loot obtained as additional embeds",
         position = 32,
-        section = lootSection
+        section = lootSection,
+        hidden = true
     )
     default boolean lootIcons() {
-        return false;
+        return true;
     }
 
     @ConfigItem(
@@ -1034,10 +1098,11 @@ public interface DinkPluginConfig extends Config {
         description = "The minimum value of an item for a notification to be sent.<br/>" +
             "For PK chests, the <i>total</i> value of the items is compared with this threshold",
         position = 33,
-        section = lootSection
+        section = lootSection,
+        hidden = true
     )
     default int minLootValue() {
-        return 0;
+        return 1000000;
     }
 
     @ConfigItem(
@@ -1046,10 +1111,11 @@ public interface DinkPluginConfig extends Config {
         description = "The minimum combined loot value to send a screenshot.<br/>" +
             "Must have 'Send Image' enabled",
         position = 34,
-        section = lootSection
+        section = lootSection,
+        hidden = true
     )
     default int lootImageMinValue() {
-        return 0;
+        return 1000000;
     }
 
     @ConfigItem(
@@ -1060,7 +1126,7 @@ public interface DinkPluginConfig extends Config {
         section = lootSection
     )
     default boolean includePlayerLoot() {
-        return true;
+        return false;
     }
 
     @ConfigItem(
@@ -1070,11 +1136,10 @@ public interface DinkPluginConfig extends Config {
             "Must have 'Include PK Loot' (above) enabled.<br/>" +
             "Has no effect if the Player Kills notifier override URL is absent",
         position = 35,
-        section = lootSection
+        section = lootSection,
+        hidden = true
     )
-    default boolean lootRedirectPlayerKill() {
-        return false;
-    }
+    default boolean lootRedirectPlayerKill() { return true; }
 
     @ConfigItem(
         keyName = "lootIncludeClueScrolls",
@@ -1092,7 +1157,8 @@ public interface DinkPluginConfig extends Config {
         name = "Include BA Gambles",
         description = "Allow notifications for barbarian assault high gambles",
         position = 36,
-        section = lootSection
+        section = lootSection,
+        hidden = true
     )
     default boolean lootIncludeGambles() {
         return false;
@@ -1104,7 +1170,8 @@ public interface DinkPluginConfig extends Config {
         description = "Always fire notifications for these items, despite value settings.<br/>" +
             "Place one item name per line (case-insensitive; asterisks are wildcards)",
         position = 37,
-        section = lootSection
+        section = lootSection,
+        hidden = true
     )
     default String lootItemAllowlist() {
         return "";
@@ -1116,7 +1183,8 @@ public interface DinkPluginConfig extends Config {
         description = "Never fire notifications for these items, despite value or rarity settings.<br/>" +
             "Place one item name per line (case-insensitive; asterisks are wildcards)",
         position = 37,
-        section = lootSection
+        section = lootSection,
+        hidden = true
     )
     default String lootItemDenylist() {
         return "";
@@ -1129,7 +1197,8 @@ public interface DinkPluginConfig extends Config {
             "Place one NPC/source name per line (case-insensitive).<br/>" +
             "Does <i>not</i> apply to player names for PK loot",
         position = 37,
-        section = lootSection
+        section = lootSection,
+        hidden = true
     )
     default String lootSourceDenylist() {
         return "Einar\n";
@@ -1143,7 +1212,8 @@ public interface DinkPluginConfig extends Config {
             "Has no effect when set to zero.<br/>" +
             "Currently only applies to NPC drops",
         position = 38,
-        section = lootSection
+        section = lootSection,
+        hidden = true
     )
     default int lootRarityThreshold() {
         return 0;
@@ -1156,7 +1226,8 @@ public interface DinkPluginConfig extends Config {
             "Does not apply to drops where Dink lacks rarity data.<br/>" +
             "Currently only impacts NPC drops",
         position = 39,
-        section = lootSection
+        section = lootSection,
+        hidden = true
     )
     default boolean lootRarityValueIntersection() {
         return false;
@@ -1171,7 +1242,8 @@ public interface DinkPluginConfig extends Config {
             "Use %SOURCE% to show the source of the loot<br/>" +
             "Use %COUNT% to insert the associated kill count (unnecessary if rich embeds are enabled)",
         position = 40,
-        section = lootSection
+        section = lootSection,
+        hidden = true
     )
     default String lootNotifyMessage() {
         return "%USERNAME% has looted: \n\n%LOOT%\nFrom: %SOURCE%";
@@ -1182,7 +1254,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable Death",
         description = "Enable notifications for when you die",
         position = 40,
-        section = deathSection
+        section = deathSection,
+        hidden = true
     )
     default boolean notifyDeath() {
         return false;
@@ -1193,7 +1266,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 41,
-        section = deathSection
+        section = deathSection,
+        hidden = true
     )
     default boolean deathSendImage() {
         return true;
@@ -1204,7 +1278,8 @@ public interface DinkPluginConfig extends Config {
         name = "Embed Kept Items",
         description = "Whether embeds of the protected items should be sent to the webhook",
         position = 42,
-        section = deathSection
+        section = deathSection,
+        hidden = true
     )
     default boolean deathEmbedKeptItems() {
         return false;
@@ -1216,7 +1291,8 @@ public interface DinkPluginConfig extends Config {
         description = "Whether deaths in safe areas should be ignored.<br/>" +
             "Exceptions to this rule can be configured below",
         position = 43,
-        section = deathSection
+        section = deathSection,
+        hidden = true
     )
     default boolean deathIgnoreSafe() {
         return true;
@@ -1228,7 +1304,8 @@ public interface DinkPluginConfig extends Config {
         description = "Safe deaths that should trigger notifications even when 'Ignore Safe Deaths' is enabled.<br/>" +
             "Hold Control while clicking on the options to select multiple exceptions",
         position = 44,
-        section = deathSection
+        section = deathSection,
+        hidden = true
     )
     default Set<ExceptionalDeath> deathSafeExceptions() {
         return EnumSet.of(ExceptionalDeath.FIGHT_CAVE, ExceptionalDeath.INFERNO);
@@ -1241,7 +1318,8 @@ public interface DinkPluginConfig extends Config {
             "Use the '::dinkregion' chat command or an online map to obtain the region IDs.<br/>" +
             "For example, Prifddinas spans 12894, 12895, 13150, 13151",
         position = 45,
-        section = deathSection
+        section = deathSection,
+        hidden = true
     )
     default String deathIgnoredRegions() {
         return "123, 456, 789";
@@ -1253,7 +1331,8 @@ public interface DinkPluginConfig extends Config {
         description = "The minimum value of the lost items for a notification to be sent.<br/>" +
             "This setting does not apply for safe deaths",
         position = 46,
-        section = deathSection
+        section = deathSection,
+        hidden = true
     )
     default int deathMinValue() {
         return 0;
@@ -1266,7 +1345,8 @@ public interface DinkPluginConfig extends Config {
             "Use %USERNAME% to insert your username<br/>" +
             "Use %VALUELOST% to insert the GE value of the stuff you lost",
         position = 47,
-        section = deathSection
+        section = deathSection,
+        hidden = true
     )
     default String deathNotifyMessage() {
         return "%USERNAME% has died...";
@@ -1277,7 +1357,8 @@ public interface DinkPluginConfig extends Config {
         name = "Distinguish PvP deaths",
         description = "Should the plugin use a different message for dying in PvP?",
         position = 48,
-        section = deathSection
+        section = deathSection,
+        hidden = true
     )
     default boolean deathNotifPvpEnabled() {
         return true;
@@ -1291,7 +1372,8 @@ public interface DinkPluginConfig extends Config {
             "Use %USERNAME% to insert your username<br/>" +
             "Use %VALUELOST% to insert the GE value of the stuff you lost",
         position = 49,
-        section = deathSection
+        section = deathSection,
+        hidden = true
     )
     default String deathNotifPvpMessage() {
         return "%USERNAME% has just been PKed by %PKER% for %VALUELOST% gp...";
@@ -1302,7 +1384,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable Slayer",
         description = "Enable notifications for when you complete a slayer task",
         position = 50,
-        section = slayerSection
+        section = slayerSection,
+        hidden = true
     )
     default boolean notifySlayer() {
         return false;
@@ -1313,7 +1396,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 51,
-        section = slayerSection
+        section = slayerSection,
+        hidden = true
     )
     default boolean slayerSendImage() {
         return true;
@@ -1324,7 +1408,8 @@ public interface DinkPluginConfig extends Config {
         name = "Min Slayer Points",
         description = "The minimum slayer task points to warrant a notification",
         position = 52,
-        section = slayerSection
+        section = slayerSection,
+        hidden = true
     )
     default int slayerPointThreshold() {
         return 0;
@@ -1339,7 +1424,8 @@ public interface DinkPluginConfig extends Config {
             "Use %POINTS% to show how many points you obtained<br/>" +
             "Use %TASKCOUNT% to show how many tasks you have completed",
         position = 53,
-        section = slayerSection
+        section = slayerSection,
+        hidden = true
     )
     default String slayerNotifyMessage() {
         return "%USERNAME% has completed a slayer task: %TASK%, getting %POINTS% points and making that %TASKCOUNT% tasks completed";
@@ -1350,7 +1436,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable Quest",
         description = "Enable notifications for when you complete a quest",
         position = 60,
-        section = questSection
+        section = questSection,
+        hidden = true
     )
     default boolean notifyQuest() {
         return false;
@@ -1361,7 +1448,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 61,
-        section = questSection
+        section = questSection,
+        hidden = true
     )
     default boolean questSendImage() {
         return true;
@@ -1374,7 +1462,8 @@ public interface DinkPluginConfig extends Config {
             "Use %USERNAME% to insert your username<br/>" +
             "Use %QUEST% to insert the quest that you completed",
         position = 62,
-        section = questSection
+        section = questSection,
+        hidden = true
     )
     default String questNotifyMessage() {
         return "%USERNAME% has completed a quest: %QUEST%";
@@ -1385,7 +1474,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable Clue Scrolls",
         description = "Enable notifications for when you complete a clue scroll",
         position = 70,
-        section = clueSection
+        section = clueSection,
+        hidden = true
     )
     default boolean notifyClue() {
         return false;
@@ -1396,7 +1486,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 71,
-        section = clueSection
+        section = clueSection,
+        hidden = true
     )
     default boolean clueSendImage() {
         return true;
@@ -1407,7 +1498,8 @@ public interface DinkPluginConfig extends Config {
         name = "Show Item Icons",
         description = "Show item icons gained from the clue as embeds",
         position = 72,
-        section = clueSection
+        section = clueSection,
+        hidden = true
     )
     default boolean clueShowItems() {
         return false;
@@ -1418,7 +1510,8 @@ public interface DinkPluginConfig extends Config {
         name = "Min Tier",
         description = "The minimum tier of the clue scroll for a notification to be sent",
         position = 73,
-        section = clueSection
+        section = clueSection,
+        hidden = true
     )
     default ClueTier clueMinTier() {
         return ClueTier.BEGINNER;
@@ -1429,7 +1522,8 @@ public interface DinkPluginConfig extends Config {
         name = "Min Value",
         description = "The minimum value of the combined items for a notification to be sent",
         position = 74,
-        section = clueSection
+        section = clueSection,
+        hidden = true
     )
     default int clueMinValue() {
         return 0;
@@ -1441,7 +1535,8 @@ public interface DinkPluginConfig extends Config {
         description = "The minimum combined value of the items to send a screenshot.<br/>" +
             "Must have 'Send Image' enabled",
         position = 75,
-        section = clueSection
+        section = clueSection,
+        hidden = true
     )
     default int clueImageMinValue() {
         return 0;
@@ -1456,7 +1551,8 @@ public interface DinkPluginConfig extends Config {
             "Use %LOOT% to show the loot obtained<br/>" +
             "Use %COUNT% to insert how many of those clue types you have completed",
         position = 76,
-        section = clueSection
+        section = clueSection,
+        hidden = true
     )
     default String clueNotifyMessage() {
         return "%USERNAME% has completed a %CLUE% clue, they have completed %COUNT%.\nThey obtained:\n\n%LOOT%";
@@ -1467,7 +1563,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable speedruns",
         description = "Enable notifications for when you complete a speedrun",
         position = 80,
-        section = speedrunSection
+        section = speedrunSection,
+        hidden = true
     )
     default boolean notifySpeedrun() {
         return false;
@@ -1478,7 +1575,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 81,
-        section = speedrunSection
+        section = speedrunSection,
+        hidden = true
     )
     default boolean speedrunSendImage() {
         return true;
@@ -1489,7 +1587,8 @@ public interface DinkPluginConfig extends Config {
         name = "Notify on Personal Best only",
         description = "Enable notifications only for your best runs",
         position = 82,
-        section = speedrunSection
+        section = speedrunSection,
+        hidden = true
     )
     default boolean speedrunPBOnly() {
         return true;
@@ -1503,7 +1602,8 @@ public interface DinkPluginConfig extends Config {
             "Use %QUEST% to insert the quest name<br/>" +
             "Use %TIME% to insert your new time",
         position = 83,
-        section = speedrunSection
+        section = speedrunSection,
+        hidden = true
     )
     default String speedrunPBMessage() {
         return "%USERNAME% has just beat their personal best in a speedrun of %QUEST% with a time of %TIME%";
@@ -1518,7 +1618,8 @@ public interface DinkPluginConfig extends Config {
             "Use %TIME% to insert your new time<br/>" +
             "Use %BEST% to insert your PB",
         position = 84,
-        section = speedrunSection
+        section = speedrunSection,
+        hidden = true
     )
     default String speedrunMessage() {
         return "%USERNAME% has just finished a speedrun of %QUEST% with a time of %TIME% (their PB is %BEST%)";
@@ -1529,7 +1630,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable Kill Count",
         description = "Enable notifications for boss kill count milestones",
         position = 90,
-        section = killCountSection
+        section = killCountSection,
+        hidden = true
     )
     default boolean notifyKillCount() {
         return false;
@@ -1540,7 +1642,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 91,
-        section = killCountSection
+        section = killCountSection,
+        hidden = true
     )
     default boolean killCountSendImage() {
         return true;
@@ -1551,7 +1654,8 @@ public interface DinkPluginConfig extends Config {
         name = "Initial Boss Kill",
         description = "Notify on the first ever kill of any boss",
         position = 92,
-        section = killCountSection
+        section = killCountSection,
+        hidden = true
     )
     default boolean killCountNotifyInitial() {
         return true;
@@ -1562,7 +1666,8 @@ public interface DinkPluginConfig extends Config {
         name = "Personal Best",
         description = "Notify on achieving a new personal best time",
         position = 93,
-        section = killCountSection
+        section = killCountSection,
+        hidden = true
     )
     default boolean killCountNotifyBestTime() {
         return true;
@@ -1573,7 +1678,8 @@ public interface DinkPluginConfig extends Config {
         name = "Kill Count Interval",
         description = "Interval between when a notification should be sent",
         position = 94,
-        section = killCountSection
+        section = killCountSection,
+        hidden = true
     )
     default int killCountInterval() {
         return 50;
@@ -1584,7 +1690,8 @@ public interface DinkPluginConfig extends Config {
         name = "Barbarian Assault",
         description = "Notify for any Penance Queen kills",
         position = 95,
-        section = killCountSection
+        section = killCountSection,
+        hidden = true
     )
     default boolean killCountPenanceQueen() {
         return true;
@@ -1598,7 +1705,8 @@ public interface DinkPluginConfig extends Config {
             "Use %BOSS% to insert the NPC name<br/>" +
             "Use %COUNT% to insert the kill count",
         position = 96,
-        section = killCountSection
+        section = killCountSection,
+        hidden = true
     )
     default String killCountMessage() {
         return "%USERNAME% has defeated %BOSS% with a completion count of %COUNT%";
@@ -1613,7 +1721,8 @@ public interface DinkPluginConfig extends Config {
             "Use %COUNT% to insert the kill count<br/>" +
             "Use %TIME% to insert the completion time",
         position = 97,
-        section = killCountSection
+        section = killCountSection,
+        hidden = true
     )
     default String killCountBestTimeMessage() {
         return "%USERNAME% has defeated %BOSS% with a new personal best time of %TIME% and a completion count of %COUNT%";
@@ -1635,7 +1744,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 101,
-        section = combatTaskSection
+        section = combatTaskSection,
+        hidden = true
     )
     default boolean combatTaskSendImage() {
         return true;
@@ -1646,10 +1756,11 @@ public interface DinkPluginConfig extends Config {
         name = "Min Tier",
         description = "Minimum combat achievement tier to warrant a notification",
         position = 102,
-        section = combatTaskSection
+        section = combatTaskSection,
+        hidden = true
     )
     default CombatAchievementTier minCombatAchievementTier() {
-        return CombatAchievementTier.EASY;
+        return CombatAchievementTier.ELITE;
     }
 
     @ConfigItem(
@@ -1662,7 +1773,8 @@ public interface DinkPluginConfig extends Config {
             "Use %POINTS% to insert the task points<br/>" +
             "Use %TOTAL_POINTS% to insert the total points earned across tasks",
         position = 103,
-        section = combatTaskSection
+        section = combatTaskSection,
+        hidden = true
     )
     default String combatTaskMessage() {
         return "%USERNAME% has completed %TIER% combat task: %TASK%";
@@ -1679,7 +1791,8 @@ public interface DinkPluginConfig extends Config {
             "Use %TOTAL_POINTS% to insert the total points earned across tasks<br/>" +
             "Use %COMPLETED% to insert the completed tier",
         position = 104,
-        section = combatTaskSection
+        section = combatTaskSection,
+        hidden = true
     )
     default String combatTaskUnlockMessage() {
         return "%USERNAME% has unlocked the rewards for the %COMPLETED% tier, by completing the combat task: %TASK%";
@@ -1690,7 +1803,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable Diary",
         description = "Enable notifications for achievement diary completions",
         position = 110,
-        section = diarySection
+        section = diarySection,
+        hidden = true
     )
     default boolean notifyAchievementDiary() {
         return false;
@@ -1701,7 +1815,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 111,
-        section = diarySection
+        section = diarySection,
+        hidden = true
     )
     default boolean diarySendImage() {
         return true;
@@ -1712,7 +1827,8 @@ public interface DinkPluginConfig extends Config {
         name = "Min Difficulty",
         description = "Minimum achievement diary difficulty to warrant a notification",
         position = 112,
-        section = diarySection
+        section = diarySection,
+        hidden = true
     )
     default AchievementDiary.Difficulty minDiaryDifficulty() {
         return AchievementDiary.Difficulty.EASY;
@@ -1731,7 +1847,8 @@ public interface DinkPluginConfig extends Config {
             "Use %AREA_TASKS_COMPLETE% to insert the tasks completed within the area<br/>" +
             "Use %AREA_TASKS_TOTAL% to insert the total tasks possible within the area",
         position = 113,
-        section = diarySection
+        section = diarySection,
+        hidden = true
     )
     default String diaryNotifyMessage() {
         return "%USERNAME% has completed the %DIFFICULTY% %AREA% Achievement Diary, for a total of %TOTAL% diaries completed";
@@ -1742,7 +1859,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable BA Gamble",
         description = "Enable notifications for Barbarian Assault high level gambles",
         position = 120,
-        section = gambleSection
+        section = gambleSection,
+        hidden = true
     )
     default boolean notifyGamble() {
         return false;
@@ -1753,7 +1871,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 121,
-        section = gambleSection
+        section = gambleSection,
+        hidden = true
     )
     default boolean gambleSendImage() {
         return true;
@@ -1764,7 +1883,8 @@ public interface DinkPluginConfig extends Config {
         name = "Notify Interval",
         description = "Interval between when a notification should be sent",
         position = 122,
-        section = gambleSection
+        section = gambleSection,
+        hidden = true
     )
     @Range(min = 1)
     default int gambleInterval() {
@@ -1776,7 +1896,8 @@ public interface DinkPluginConfig extends Config {
         name = "Always notify for rare loot",
         description = "Always send a notification upon receiving a dragon chainbody or med helm from a gamble",
         position = 123,
-        section = gambleSection
+        section = gambleSection,
+        hidden = true
     )
     default boolean gambleRareLoot() {
         return true;
@@ -1790,7 +1911,8 @@ public interface DinkPluginConfig extends Config {
             "Use %COUNT% to insert the gamble count<br/>" +
             "Use %LOOT% to insert the loot",
         position = 124,
-        section = gambleSection
+        section = gambleSection,
+        hidden = true
     )
     default String gambleNotifyMessage() {
         return "%USERNAME% has reached %COUNT% high gambles";
@@ -1804,7 +1926,8 @@ public interface DinkPluginConfig extends Config {
             "Use %COUNT% to insert the gamble count<br/>" +
             "Use %LOOT% to insert the loot",
         position = 125,
-        section = gambleSection
+        section = gambleSection,
+        hidden = true
     )
     default String gambleRareNotifyMessage() {
         return "%USERNAME% has received rare loot at gamble count %COUNT%: \n\n%LOOT%";
@@ -1815,7 +1938,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable Player Kills",
         description = "Enable notifications upon killing other players",
         position = 130,
-        section = pkSection
+        section = pkSection,
+        hidden = true
     )
     default boolean notifyPk() {
         return false;
@@ -1826,7 +1950,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 131,
-        section = pkSection
+        section = pkSection,
+        hidden = true
     )
     default boolean pkSendImage() {
         return true;
@@ -1838,7 +1963,8 @@ public interface DinkPluginConfig extends Config {
         description = "Whether notifications should be skipped for kills in safe areas.<br/>" +
             "This includes Clan Wars, Duel Arena, Fight Pit, Last Man Standing, etc.",
         position = 132,
-        section = pkSection
+        section = pkSection,
+        hidden = true
     )
     default boolean pkSkipSafe() {
         return true;
@@ -1849,7 +1975,8 @@ public interface DinkPluginConfig extends Config {
         name = "Ignore Friendlies",
         description = "Whether notifications should be skipped upon killing friends, clan members, or team mates",
         position = 133,
-        section = pkSection
+        section = pkSection,
+        hidden = true
     )
     default boolean pkSkipFriendly() {
         return false;
@@ -1861,7 +1988,8 @@ public interface DinkPluginConfig extends Config {
         description = "The minimum value of the victim's visible equipment to send a notification.<br/>" +
             "This does not include equipment you cannot see or items in their inventory.",
         position = 134,
-        section = pkSection
+        section = pkSection,
+        hidden = true
     )
     default int pkMinValue() {
         return 0;
@@ -1872,7 +2000,8 @@ public interface DinkPluginConfig extends Config {
         name = "Include Location",
         description = "Whether notifications should include the world and location of the killed player.",
         position = 135,
-        section = pkSection
+        section = pkSection,
+        hidden = true
     )
     default boolean pkIncludeLocation() {
         return true;
@@ -1885,7 +2014,8 @@ public interface DinkPluginConfig extends Config {
             "Use %USERNAME% to insert your username<br/>" +
             "Use %TARGET% to insert the victim's username",
         position = 136,
-        section = pkSection
+        section = pkSection,
+        hidden = true
     )
     default String pkNotifyMessage() {
         return "%USERNAME% has PK'd %TARGET%";
@@ -1896,7 +2026,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable Transactions",
         description = "Enable notifications upon group storage transactions",
         position = 140,
-        section = groupStorageSection
+        section = groupStorageSection,
+        hidden = true
     )
     default boolean notifyGroupStorage() {
         return false;
@@ -1907,7 +2038,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 141,
-        section = groupStorageSection
+        section = groupStorageSection,
+        hidden = true
     )
     default boolean groupStorageSendImage() {
         return true;
@@ -1918,7 +2050,8 @@ public interface DinkPluginConfig extends Config {
         name = "Min Value",
         description = "The minimum value of the deposits or withdrawals to send a notification",
         position = 142,
-        section = groupStorageSection
+        section = groupStorageSection,
+        hidden = true
     )
     default int groupStorageMinValue() {
         return 0;
@@ -1929,7 +2062,8 @@ public interface DinkPluginConfig extends Config {
         name = "Include Group Name",
         description = "Whether notifications should include the GIM clan name",
         position = 143,
-        section = groupStorageSection
+        section = groupStorageSection,
+        hidden = true
     )
     default boolean groupStorageIncludeClan() {
         return true;
@@ -1941,7 +2075,8 @@ public interface DinkPluginConfig extends Config {
         description = "Whether price should be included on individual items,<br/>" +
             "and a Net Value field generated for notifications",
         position = 144,
-        section = groupStorageSection
+        section = groupStorageSection,
+        hidden = true
     )
     default boolean groupStorageIncludePrice() {
         return true;
@@ -1955,7 +2090,8 @@ public interface DinkPluginConfig extends Config {
             "Use %DEPOSITED% to insert the list of deposited items<br/>" +
             "Use %WITHDRAWN% to insert the list of withdrawn items",
         position = 145,
-        section = groupStorageSection
+        section = groupStorageSection,
+        hidden = true
     )
     default String groupStorageNotifyMessage() {
         return "%USERNAME% has deposited:\n%DEPOSITED%\n\n%USERNAME% has withdrawn:\n%WITHDRAWN%";
@@ -1966,7 +2102,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable GE Transactions",
         description = "Enable notifications upon grand exchange transactions",
         position = 150,
-        section = grandExchangeSection
+        section = grandExchangeSection,
+        hidden = true
     )
     default boolean notifyGrandExchange() {
         return false;
@@ -1977,7 +2114,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 151,
-        section = grandExchangeSection
+        section = grandExchangeSection,
+        hidden = true
     )
     default boolean grandExchangeSendImage() {
         return true;
@@ -1990,7 +2128,8 @@ public interface DinkPluginConfig extends Config {
             "Cancellation events require the trade's partial progress to exceed the configured minimum value.<br/>" +
             "If 'Min Value' is set to 0, then cancellation events will also fire for completely unfilled orders",
         position = 152,
-        section = grandExchangeSection
+        section = grandExchangeSection,
+        hidden = true
     )
     default boolean grandExchangeIncludeCancelled() {
         return false;
@@ -2001,7 +2140,8 @@ public interface DinkPluginConfig extends Config {
         name = "Min Value",
         description = "The minimum value of the transacted items to send a notification",
         position = 153,
-        section = grandExchangeSection
+        section = grandExchangeSection,
+        hidden = true
     )
     default int grandExchangeMinValue() {
         return 100_000;
@@ -2015,7 +2155,8 @@ public interface DinkPluginConfig extends Config {
         description = "The number of minutes that must pass since the last notification to notify for an in-progress trade.<br/>" +
             "Set to -1 to never notify for in-progress trades",
         position = 154,
-        section = grandExchangeSection
+        section = grandExchangeSection,
+        hidden = true
     )
     default int grandExchangeProgressSpacingMinutes() {
         return -1; // corresponds to no notifications for partial progress
@@ -2030,7 +2171,8 @@ public interface DinkPluginConfig extends Config {
             "Use %ITEM% to insert the transacted item<br/>" +
             "Use %STATUS% to insert the trade status (e.g., Completed, In Progress, Cancelled)",
         position = 155,
-        section = grandExchangeSection
+        section = grandExchangeSection,
+        hidden = true
     )
     default String grandExchangeNotifyMessage() {
         return "%USERNAME% %TYPE% %ITEM% on the GE";
@@ -2041,7 +2183,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable Trades",
         description = "Enable notifications upon completed player trades",
         position = 160,
-        section = tradeSection
+        section = tradeSection,
+        hidden = true
     )
     default boolean notifyTrades() {
         return false;
@@ -2052,7 +2195,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 161,
-        section = tradeSection
+        section = tradeSection,
+        hidden = true
     )
     default boolean tradeSendImage() {
         return true;
@@ -2063,7 +2207,8 @@ public interface DinkPluginConfig extends Config {
         name = "Min Value",
         description = "The minimum total value of the traded items to send a notification",
         position = 162,
-        section = tradeSection
+        section = tradeSection,
+        hidden = true
     )
     default int tradeMinValue() {
         return 0;
@@ -2078,7 +2223,8 @@ public interface DinkPluginConfig extends Config {
             "Use %IN_VALUE% to insert the value of the items received from the counterparty<br/>" +
             "Use %OUT_VALUE% to insert the value of the items given to the counterparty",
         position = 163,
-        section = tradeSection
+        section = tradeSection,
+        hidden = true
     )
     default String tradeNotifyMessage() {
         return "%USERNAME% traded with %COUNTERPARTY%";
@@ -2089,7 +2235,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable Chat Notifications",
         description = "Enable notifications upon receiving specific chat messages",
         position = 170,
-        section = chatSection
+        section = chatSection,
+        hidden = true
     )
     default boolean notifyChat() {
         return false;
@@ -2100,7 +2247,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Send image with the notification",
         position = 171,
-        section = chatSection
+        section = chatSection,
+        hidden = true
     )
     default boolean chatSendImage() {
         return true;
@@ -2111,7 +2259,8 @@ public interface DinkPluginConfig extends Config {
         name = "Message Types",
         description = "The types of chat messages that can trigger notifications",
         position = 172,
-        section = chatSection
+        section = chatSection,
+        hidden = true
     )
     default Set<ChatNotificationType> chatMessageTypes() {
         return EnumSet.of(ChatNotificationType.GAME, ChatNotificationType.COMMAND);
@@ -2123,7 +2272,8 @@ public interface DinkPluginConfig extends Config {
         description = "The chat message patterns that should trigger notifications.<br/>" +
             "Place one pattern per line (case-insensitive; asterisks are wildcards)",
         position = 173,
-        section = chatSection
+        section = chatSection,
+        hidden = true
     )
     default String chatPatterns() {
         return "You've unlocked an emote: *\n" +
@@ -2142,7 +2292,8 @@ public interface DinkPluginConfig extends Config {
             "Use %MESSAGE% to insert the chat message<br/>" +
             "Use %SENDER% to insert the sender of the message",
         position = 174,
-        section = chatSection
+        section = chatSection,
+        hidden = true
     )
     default String chatNotifyMessage() {
         return "%USERNAME% received a chat message:\n\n```\n%MESSAGE%\n```";
@@ -2153,7 +2304,8 @@ public interface DinkPluginConfig extends Config {
         name = "Enable External Plugin Notifications",
         description = "Enable notifications upon requests by other plugins",
         position = 180,
-        section = externalSection
+        section = externalSection,
+        hidden = true
     )
     default boolean notifyExternal() {
         return false;
@@ -2164,7 +2316,8 @@ public interface DinkPluginConfig extends Config {
         name = "Send Image",
         description = "Controls whether screenshots should be included with the notification",
         position = 181,
-        section = externalSection
+        section = externalSection,
+        hidden = true
     )
     default ExternalScreenshotPolicy externalSendImage() {
         return ExternalScreenshotPolicy.REQUESTED;
